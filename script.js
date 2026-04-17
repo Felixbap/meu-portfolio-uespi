@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // --- LÓGICA DA RÁDIO NO CABEÇALHO ---
     const audio = document.getElementById('radio-audio');
     const toggleBtn = document.getElementById('radio-toggle');
     const playIcon = document.getElementById('play-icon');
@@ -45,6 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // --- ARRAY DE PROJETOS E RENDERIZAÇÃO DINÂMICA ---
     const projetos = [
         {
             titulo: "Identidade Black FM",
